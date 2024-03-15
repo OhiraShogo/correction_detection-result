@@ -1,0 +1,1 @@
+PyOCRを用いた修正のためのプログラムPyOCR_correction.pyと多重検出除去のためのdelete.py
