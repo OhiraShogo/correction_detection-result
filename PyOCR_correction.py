@@ -52,7 +52,7 @@ def com(bbox,conf,label,dir,st): #PyOCRを用いた修正のための関数
     print('none')
     print(pos)
   else:
-    if label == !index: #Θが最も高いクラスが検出結果のクラスと異なった場合修正過程を出力
+    if label != index: #Θが最も高いクラスが検出結果のクラスと異なった場合修正過程を出力
       print(name)
       print('detection:'+txt1)
       print(list[label])
