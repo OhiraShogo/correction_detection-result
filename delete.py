@@ -17,7 +17,7 @@ def calculate_iou(box1, box2):
 
 l_path = "#YOLOv5の検出結果が入ったディレクトリのパス"
 lfiles = sorted(os.listdir(l_path))
-filtered_result_path  = "#出力結果を書き出すディレクトリのパス"
+filtered_result_path  = "#修正後の結果を格納するディレクトリパス"
 os.makedirs(filtered_result_path, exist_ok=True)
 for file1 in lfiles:
   r_path = os.path.join(l_path, file1)
