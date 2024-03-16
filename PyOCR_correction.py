@@ -69,7 +69,7 @@ l_path = "#YOLOv5の検出結果が入ったディレクトリのパス"
 p_path = "#上記の検出対象となった楽譜画像が入ったディレクトリパス" 
 lfiles = sorted(os.listdir(l_path))
 pfiles = sorted(os.listdir(p_path))
-result_path = "#出力結果が入ったディレクトリ" 
+result_path = "#修正後の結果を格納するディレクトリパス" 
 os.makedirs(result_path, exist_ok=True)
 for file1, file2 in zip(lfiles, pfiles):
     path1 = os.path.join(l_path, file1)
