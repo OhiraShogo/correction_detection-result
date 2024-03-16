@@ -9,7 +9,7 @@ PyOCR_correction.pyの実行には、apt install tesseract-ocr libtesseract-dev�
 PyOCR_correction.pyのプログラム内に書かれているように、l_path = "#YOLOv5の検出結果が入ったディレクトリのパス" 、p_path = "#上記の検出対象となった楽譜画像が入ったディレクトリパス" 、
 result_path = "#修正後の結果を格納するディレクトリパス" を指定することで実行できる。
 
-delete.pyの実行にはプログラム内に書かれているようにl_path = "#YOLOv5の検出結果が入ったディレクトリのパス"、filtered_result_path  = "#出力結果を書き出すディレクトリのパス"を
+delete.pyの実行にはプログラム内に書かれているようにl_path = "#YOLOv5の検出結果が入ったディレクトリのパス"、filtered_result_path  = "#修正後の結果を格納するディレクトリパス"を
 指定することで実行できる。
 
 datasetには本研究でのYOLOv5の検出結果と、その対象の楽譜画像が入っている。上記プログラムにおいて、これらをディレクトリのパスに指定することで本研究のように実行が可能である。
